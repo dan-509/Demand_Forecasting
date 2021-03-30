@@ -9,4 +9,4 @@ def hello():
         x = {'Demands': [1,2,3,4,5,6,7,8,9]}
         return x
     else:
-        return {'Error': 404}
+        return {'Time': datetime.hour,':',datetime.minute}
