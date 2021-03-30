@@ -9,4 +9,5 @@ def hello():
         x = {'Demands': [1,2,3,4,5,6,7,8,9]}
         return x
     else:
-        return {'Time': datetime.hour,':',datetime.minute}
+        x = {'Time': [datetime.hour,':',datetime.minute]}
+        return x
