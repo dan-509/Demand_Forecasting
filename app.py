@@ -1,6 +1,6 @@
 from flask import Flask
 import datetime
-datetime
+datetime = datetime.datetime.now()
 app = Flask(__name__)
 
 @app.route("/")
